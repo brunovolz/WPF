@@ -24,12 +24,11 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
-
         private void UcLoginForm_loginCorrect(object sender, EventArgs e)
         {
             //ucTaskForm.Visibility = Visibility.Visible;
             usCalculator.Visibility = Visibility.Visible;
-            MessageBox.Show("Congratulations Men!");
+            //MessageBox.Show("Congratulations Men!");
         }
     }
 }

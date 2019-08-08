@@ -4,33 +4,33 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApp1.Views"
-             mc:Ignorable="d" Width="400.794" Height="446.614">
+             mc:Ignorable="d" Width="404.074" Height="600">
     <Grid Margin="80,10,0,-0.6" RenderTransformOrigin="0.5,0.5">
         <Grid.RowDefinitions>
-            <RowDefinition/>
+            <RowDefinition Height="299*"/>
+            <RowDefinition Height="292*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-        <Image Source="/WpfApp1;component/como-ganhar-dinheiro-com-a-internet.jpg" Stretch="Fill" HorizontalAlignment="Left" Width="399" Margin="-78,-8,-317.8,-0.2" Height="445" VerticalAlignment="Bottom"/>
-        <Button Content="1" HorizontalAlignment="Left" Margin="-50,318,-21.4,0" VerticalAlignment="Top" Width="73" Height="43" Click="um_Click"/>
-        <Button Content="2" HorizontalAlignment="Left" Margin="39,318,-111.4,0" VerticalAlignment="Top" Width="74" Height="43" Click="dois_Click"/>
-        <Button Content="3" HorizontalAlignment="Left" Margin="127,318,-200.4,0" VerticalAlignment="Top" Width="75" Height="43" Click="tres_Click" />
-        <Button Content="4" HorizontalAlignment="Left" Margin="-52,262,-20.4,0" VerticalAlignment="Top" Width="74" Height="43" Click="quatro_Click"/>
-        <Button Content="5" HorizontalAlignment="Left" Margin="39,262,-112.4,0" VerticalAlignment="Top" Width="75" Height="43" Click="cinco_Click"/>
-        <Button Content="6" HorizontalAlignment="Left" Margin="127,262,-200.4,0" VerticalAlignment="Top" Width="75" Height="43" Click="seis_Click"/>
-        <Button Content="7" HorizontalAlignment="Left" Margin="-50,198,-21.4,0" VerticalAlignment="Top" Width="73" Height="42" Click="sete_Click"/>
-        <Button Content="8" HorizontalAlignment="Left" Margin="38,198,-111.4,0" VerticalAlignment="Top" Width="75" Height="42" Click="oito_Click"/>
-        <Button Content="9" HorizontalAlignment="Left" Margin="127,198,-200.4,0" VerticalAlignment="Top" Width="75" Height="42" Click="nove_Click"/>
-        <TextBox Name="display" HorizontalAlignment="Left" Height="55" Margin="-50,46,-297.4,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="349"/>
-        <Button Content="0" HorizontalAlignment="Left" Margin="-50,376,-87.4,0" VerticalAlignment="Top" Width="139" Height="43" Click="zero_Click"/>
-        <Button Content="+" HorizontalAlignment="Left" Margin="223,318,-297.4,0" VerticalAlignment="Top" Width="76" Height="101" Click="soma_Click"/>
-        <Button Content="*" HorizontalAlignment="Left" Margin="223,198,-297.4,0" VerticalAlignment="Top" Width="76" Height="42" Click="multiplicacao_Click"/>
-        <Button Content="/" HorizontalAlignment="Left" Margin="223,139,-297.4,0" VerticalAlignment="Top" Width="76" Height="42" Click="divisao_Click"/>
-        <Button Content="-" HorizontalAlignment="Left" Margin="223,262,-297.4,0" VerticalAlignment="Top" Width="76" Height="43" RenderTransformOrigin="2.739,0.657" Click="subtracao_Click"/>
-        <Button Content="%" HorizontalAlignment="Left" Margin="127,139,-200.4,0" VerticalAlignment="Top" Width="75" Height="42"/>
-        <Button Content="CE" HorizontalAlignment="Left" Margin="-50,139,-22.4,0" VerticalAlignment="Top" Width="74" Height="42" RenderTransformOrigin="0.027,-0.594" Click="button1_Click"/>
-        <Button Content="," HorizontalAlignment="Left" Margin="116,376,-200.4,0" VerticalAlignment="Top" Width="86" Height="43" Click="virgula_Click" RenderTransformOrigin="-2.327,4.417"/>
-        <Button Content="=" HorizontalAlignment="Left" Margin="39,139,-111.4,0" VerticalAlignment="Top" Width="74" Height="42" RenderTransformOrigin="0.519,0.541" Click="igual_Click"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="-50,19,-14,0" VerticalAlignment="Top" Width="73" Height="43" Click="um_Click" Grid.Row="1"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="39,19,-104,0" VerticalAlignment="Top" Width="74" Height="43" Click="dois_Click" Grid.Row="1"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="127,19,-193,0" VerticalAlignment="Top" Width="75" Height="43" Click="tres_Click" Grid.Row="1" />
+        <Button Content="4" HorizontalAlignment="Left" Margin="-52,262,-13,0" VerticalAlignment="Top" Width="74" Height="43" Click="quatro_Click" Grid.RowSpan="2"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="39,262,-105,0" VerticalAlignment="Top" Width="75" Height="43" Click="cinco_Click" Grid.RowSpan="2"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="127,262,-193,0" VerticalAlignment="Top" Width="75" Height="43" Click="seis_Click" Grid.RowSpan="2"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="-50,198,-14,0" VerticalAlignment="Top" Width="73" Height="42" Click="sete_Click"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="38,198,-104,0" VerticalAlignment="Top" Width="75" Height="42" Click="oito_Click"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="127,198,-193,0" VerticalAlignment="Top" Width="75" Height="42" Click="nove_Click"/>
+        <TextBox Name="display" HorizontalAlignment="Left" Height="55" Margin="-50,46,-290,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="349"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="-50,77,-80,0" VerticalAlignment="Top" Width="139" Height="43" Click="zero_Click" Grid.Row="1"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="223,19,-290,0" VerticalAlignment="Top" Width="76" Height="101" Click="soma_Click" Grid.Row="1"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="223,198,-290,0" VerticalAlignment="Top" Width="76" Height="42" Click="multiplicacao_Click"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="223,139,-290,0" VerticalAlignment="Top" Width="76" Height="42" Click="divisao_Click"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="223,262,-290,0" VerticalAlignment="Top" Width="76" Height="43" RenderTransformOrigin="2.739,0.657" Click="subtracao_Click" Grid.RowSpan="2"/>
+        <Button Content="%" HorizontalAlignment="Left" Margin="127,139,-193,0" VerticalAlignment="Top" Width="75" Height="42"/>
+        <Button Content="CE" HorizontalAlignment="Left" Margin="-50,139,-15,0" VerticalAlignment="Top" Width="74" Height="42" RenderTransformOrigin="0.027,-0.594" Click="button1_Click"/>
+        <Button Content="," HorizontalAlignment="Left" Margin="116,77,-193,0" VerticalAlignment="Top" Width="86" Height="43" Click="virgula_Click" RenderTransformOrigin="-2.327,4.417" Grid.Row="1"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="39,139,-104,0" VerticalAlignment="Top" Width="74" Height="42" RenderTransformOrigin="0.519,0.541" Click="igual_Click"/>
     </Grid>
 </UserControl>

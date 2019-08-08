@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         xmlns:y="clr-namespace:WpfApp1.Views"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com" 
+        gif:ImageBehavior.AnimateInDesignMode="True"
         mc:Ignorable="d"
-        Title="MainWindow" Height="446.450" Width="404.074">
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="650" Width="450">
     <Grid>
+        <Image gif:ImageBehavior.RepeatBehavior="Forever" gif:ImageBehavior.AnimatedSource="C:\Users\bruno\Desktop\Bruno\WPF\WpfApp1\fw1p32cq2qo21.gif" 
+                HorizontalAlignment="Center" Margin="0,3,0,-2.6"  Stretch="Fill"/>
         <y:ucLogin x:Name="ucLoginForm" loginCorrect="UcLoginForm_loginCorrect"></y:ucLogin>
         <y:ucTaskBar x:Name="ucTaskForm" Visibility="Hidden"></y:ucTaskBar>
         <y:usCalc x:Name="usCalculator" Visibility="Hidden" ></y:usCalc>

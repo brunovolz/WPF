@@ -16,8 +16,6 @@
             <RowDefinition Height="45*"/>
             <RowDefinition Height="46*"/>
         </Grid.RowDefinitions>
-
-        <MediaElement Source="C:\Users\hbsis\Desktop\Bruno\Galeria\gif01.gif" Stretch="Fill" HorizontalAlignment="Center" Margin="0,3,0,-2.6" Grid.RowSpan="4" LoadedBehavior="Play"/>
         <TextBox x:Name="tbxSenhaForm" Margin="109,65.858,0,0" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="192" Height="40" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Grid.Row="1"/>
         <Label Content="Senha" Margin="179,27.858,0,0" FontSize="20" RenderTransformOrigin="-0.215,0.674" Foreground="White" HorizontalAlignment="Left" Width="70" Height="38" VerticalAlignment="Top" Grid.Row="1"/>
         <Label Content="Esqueceu a Senha?" Margin="147,14.683,0,0" VerticalAlignment="Top" Height="24" RenderTransformOrigin="-1.53,-0.175" Foreground="White" Grid.Row="3" HorizontalAlignment="Left" Width="110"/>

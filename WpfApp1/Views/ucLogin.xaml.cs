@@ -24,7 +24,6 @@ namespace WpfApp1.Views
         {
             InitializeComponent();
         }
-
         public event EventHandler loginCorrect;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -39,11 +38,6 @@ namespace WpfApp1.Views
             }
             else
                 MessageBox.Show("LOGIN INVALIDO!!!");
-        }
-
-        private void MediaElement_MediaEnded(object sender, RoutedEventArgs e)
-        {
-            sender = TimeSpan.FromMilliseconds(1);
         }
     }
 }
