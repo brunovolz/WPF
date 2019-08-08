@@ -37,7 +37,7 @@ namespace WpfApp1.Views
                 loginCorrect(null, new EventArgs());
             }
             else
-                MessageBox.Show("LOGIN INVALIDO!!!");
+                MessageBox.Show("Uma chance num milhão é melhor que nenhuma chance!", "Login ou Senha Invalida!", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 }

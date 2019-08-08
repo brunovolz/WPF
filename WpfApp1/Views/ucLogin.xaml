@@ -16,16 +16,19 @@
             <RowDefinition Height="45*"/>
             <RowDefinition Height="46*"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="tbxSenhaForm" Margin="109,65.858,0,0" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="192" Height="40" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Grid.Row="1"/>
-        <Label Content="Senha" Margin="179,27.858,0,0" FontSize="20" RenderTransformOrigin="-0.215,0.674" Foreground="White" HorizontalAlignment="Left" Width="70" Height="38" VerticalAlignment="Top" Grid.Row="1"/>
-        <Label Content="Esqueceu a Senha?" Margin="147,14.683,0,0" VerticalAlignment="Top" Height="24" RenderTransformOrigin="-1.53,-0.175" Foreground="White" Grid.Row="3" HorizontalAlignment="Left" Width="110"/>
-        <Button Content="Entrar" Margin="118,18.763,0,0" Click="Button_Click" FontSize="20" Foreground="White" BorderBrush="{x:Null}" Background="{x:Null}" Grid.Row="2" HorizontalAlignment="Left" Width="169" Height="52" VerticalAlignment="Top" />
-        <TextBox x:Name="tbxLoginForm" Margin="109,118,0,0" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="192" Height="40" VerticalAlignment="Top" Foreground="White" BorderBrush="{x:Null}">
+        <TextBox x:Name="tbxSenhaForm" Margin="164,66,0,0" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="110" Height="40" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Grid.Row="1"/>
+        <Label Content="Senha" Margin="187,28,0,0" FontSize="20" RenderTransformOrigin="-0.215,0.674" Foreground="White" HorizontalAlignment="Left" Width="70" Height="38" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label Content="Esqueceu a Senha?" Margin="164,10,0,0" VerticalAlignment="Top" Height="24" RenderTransformOrigin="-1.53,-0.175" Foreground="White" Grid.Row="3" HorizontalAlignment="Left" Width="110"/>
+        <Button Content="Entrar" Margin="132,10,0,0" Click="Button_Click" FontSize="20" Foreground="White" BorderBrush="{x:Null}" Background="{x:Null}" Grid.Row="2" HorizontalAlignment="Left" Width="142" Height="52" VerticalAlignment="Top" />
+        <TextBox x:Name="tbxLoginForm" Margin="164,118,0,0" TextWrapping="Wrap" FontSize="20" Width="110" Height="40" VerticalAlignment="Top" Foreground="White" BorderBrush="{x:Null}" HorizontalAlignment="Left">
+            <TextBox.ContextMenu>
+                <ContextMenu/>
+            </TextBox.ContextMenu>
             <TextBox.Background>
                 <ImageBrush/>
             </TextBox.Background>
         </TextBox>
-        <Label Content="Login" Margin="179,72,0,0" FontSize="20" RenderTransformOrigin="-1.53,-0.175" Foreground="White" HorizontalAlignment="Left" Width="60" Height="41" VerticalAlignment="Top"/>
+        <Label Content="Login" Margin="197,72,0,0" FontSize="20" RenderTransformOrigin="-1.53,-0.175" Foreground="White" HorizontalAlignment="Left" Width="60" Height="41" VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>
