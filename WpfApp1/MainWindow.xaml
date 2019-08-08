@@ -11,7 +11,7 @@
         WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="650" Width="450">
     <Grid>
-        <Image gif:ImageBehavior.RepeatBehavior="Forever" gif:ImageBehavior.AnimatedSource="C:\Users\bruno\Desktop\Bruno\WPF\WpfApp1\fw1p32cq2qo21.gif" 
+        <Image gif:ImageBehavior.RepeatBehavior="Forever" gif:ImageBehavior.AnimatedSource="C:\Users\hbsis\Desktop\Bruno\Galeria\gif01.gif " 
                 HorizontalAlignment="Center" Margin="0,3,0,-2.6"  Stretch="Fill"/>
         <y:ucLogin x:Name="ucLoginForm" loginCorrect="UcLoginForm_loginCorrect"></y:ucLogin>
         <y:ucTaskBar x:Name="ucTaskForm" Visibility="Hidden"></y:ucTaskBar>

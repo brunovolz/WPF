@@ -1,0 +1,18 @@
+﻿<Window x:Class="CadastroRegex.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CadastroRegex"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="CadName" HorizontalAlignment="Left" Height="68" Margin="123,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="626" FontSize="24"/>
+        <TextBox Name="CadNumber" HorizontalAlignment="Left" Height="68" Margin="123,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="626" FontSize="24"/>
+        <TextBox Name="CadEmail" HorizontalAlignment="Left" Height="68" Margin="123,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="626" FontSize="24"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="32,46,0,0" VerticalAlignment="Top" Height="41" Width="77" FontSize="24" RenderTransformOrigin="0.671,0.399"/>
+        <Label Content="Telefone" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="E-mail" HorizontalAlignment="Left" Margin="32,220,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.663,0.677" FontSize="24"/>
+        <Button Content="Cadastrar" HorizontalAlignment="Left" Margin="46,319,0,0" VerticalAlignment="Top" Width="703" Height="76" FontSize="36" Click="Button_Click"/>
+    </Grid>
+</Window>
